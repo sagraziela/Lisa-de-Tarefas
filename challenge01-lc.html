@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let'sDoIt</title>
+
+    <link rel="stylesheet" href="./style-ch01.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><strong><span style="color: #f5d01f;">Let's</span>DoIt</strong></h1>
+            <section>
+                <div id="img">
+                    <img src="./profilepic.jpg" alt="Foto de perfil">
+                </div>
+                <div id="profile">
+                    <p id="name"><strong>Graziela Antunes</strong></p>
+                    <p id="subtitle">Bem-vindo(a) ao Let'sDoIt</p>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Para Inspirar</h2>
+        <section id="phrase">
+            <div class="phr1">
+                <p>"The tragedy in life doesn't lie in not reaching your goal. The tragedy lies in having no goal to reach."</p>
+                <p><strong>Benjamin E. Mays</strong>, American civil rights leader</p>
+            </div>
+            <div class="phr2">
+                <p>"Until we can manage time, we can manage nothing else."</p>
+                <p><strong>Peter Drucker</strong>, management consultant</p>
+            </div>
+        </section>
+
+        <div class="t1">
+            <h2>Minhas Tarefas</h2>
+            <input type="text" name="task" id="task">
+            <button id="addbutton" onclick="addtask()">Adicionar</button>
+            <p id="tasklist"></p>
+        </div>
+    </main>
+</body>
+<script src="script-ch01.js"></script>
+</html>
